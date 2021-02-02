@@ -144,7 +144,10 @@ h1 {
   
   /* Medium only */
   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-
+    .special-project {
+      grid-column-start: 1;
+      grid-column-end: -1;
+    }
 }
 
 /* Large and up */
@@ -183,6 +186,14 @@ h1 {
 /* ==========================================================================
    THEME
    ========================================================================== */
+   
+   .page__slider {
+     background-color: rgb(207, 207, 207);
+   }
+   .page-footer {
+     background-color: #222;
+   }
+
 
 /*
  * Hide visually and from screen readers
